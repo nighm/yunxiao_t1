@@ -1,0 +1,40 @@
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+
+# 云效登录信息
+userName = "your_username"  # 用户名
+password = "your_password"  # 密码
+
+# 标注模式
+# 1: 自动化类型标注
+# 2: 测试结果标注
+# 3: 用例挑选模式
+autoLabel = 1
+
+# 产品名称
+yxProductName = "your_product_name"
+
+# 测试单名称
+autoPlanName = "your_test_plan_name"
+newPlanName = "your_new_plan_name"
+
+# 挑选用例文件名
+selectCaseFileName = "test_case_selection.xlsx"
+
+# 行号
+lineNum = 1
+
+# 浏览器配置
+BROWSER = {
+    "chrome_driver_path": "./chromedriver/chromedriver-win64/chromedriver.exe",
+    "implicit_wait": 1.5,
+    "page_load_timeout": 30,
+    "script_timeout": 30
+}
+
+# 等待时间配置
+WAIT_TIME = {
+    "short": 1,
+    "medium": 2,
+    "long": 5
+} 
